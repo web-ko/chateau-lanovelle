@@ -74,7 +74,8 @@ ul{
     position: relative;
 }
 .landing-page-logo{
-    margin-top: -4%;
+    position: absolute;
+    top: 15%;
 }
 .logo{
     width: 100%;
@@ -102,6 +103,11 @@ ul{
     font-family: "bodonistditalic";
     font-size: 1.75rem;
     color: #4d2a18;
+}
+@media(min-width: 1200px){
+    .landing-page-logo{
+        width: 30.333333%;
+    }
 }
 @media(max-width: 632px){
     .baseline h1{

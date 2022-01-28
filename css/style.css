@@ -215,7 +215,7 @@ ul{
     background-color: #e9ecef;
 }
 .fixed-top{
-    padding: 35px 15px;
+    padding: 2.1875rem 0.9375rem;
     pointer-events: none;
 }
 .lang-switch-ourwines{
@@ -414,7 +414,7 @@ ul{
 .fullscreen-content ul li a{
     display: block;
     font-family: "BodoniStd";
-    font-size: 1rem;
+    font-size: 16px;
     color: #ede9e1;
     text-align: center;
     letter-spacing: 1px;
@@ -460,7 +460,7 @@ ul{
     -webkit-animation-delay: .435s;
             animation-delay: .435s;
 }
-.open .wines{
+.open .wines-content{
     opacity: 0;
     -webkit-animation: fadeinRight .5s ease forwards;
             animation: fadeinRight .5s ease forwards;
@@ -1200,7 +1200,7 @@ ul{
         margin-top: 22px;
     }
     .fullscreen-content ul li a {
-        font-size: 0.7rem;
+        /*font-size: 16px;*/
         letter-spacing: 1px;
         text-decoration: none;
         line-height: 2.5;
@@ -1219,6 +1219,17 @@ ul{
     }
 }
 @media(max-width: 630px){
+    .fullscreen-content ul li a {
+        font-size: 11.2px;
+    }
+    .fullscreen-content.open {
+        padding-top: 38px;
+        padding-bottom: 40px;
+    }
+    .fullscreen-content .contact {
+        font-family: "Segoe UI Symbol";
+        font-size: 10px;
+    }
     .wines{
         max-width: 300px;
     }
@@ -1238,6 +1249,9 @@ ul{
     }
 }
 @media(max-width: 408px){
+    .open .story{
+        margin-top: 72px;
+    }
     .open ul li a{
         padding: 0 2px;
     }
@@ -1280,7 +1294,7 @@ ul{
         line-height: inherit;
         padding: 7px 2px;
     }
-    .open .story, .open .glimpse, .open .vineyard, .open .wines, .open .tablede, .open .visiting, .open .contacts{
+    .open .story, .open .glimpse, .open .vineyard, .open .wines-content, .open .tablede, .open .visiting, .open .contacts{
             padding: 0 10px;
     }
 }
