@@ -1214,9 +1214,9 @@ ul{
     .fullscreen-content .fa-twit-inst li a{
         font-size: .9rem;
     }
-    .fullscreen-content .fa-twit-inst {
+    /*.fullscreen-content .fa-twit-inst {
         margin: 15px 88px;
-    }
+    }*/
 }
 @media(max-width: 630px){
     .fullscreen-content ul li a {
@@ -1229,6 +1229,9 @@ ul{
     .fullscreen-content .contact {
         font-family: "Segoe UI Symbol";
         font-size: 10px;
+    }
+    .fullscreen-content .fa-twit-inst {
+        margin: 15px 88px;
     }
     .wines{
         max-width: 300px;
@@ -1253,7 +1256,7 @@ ul{
         margin-top: 72px;
     }
     .open ul li a{
-        /*padding: 0 2px;*/
+        padding: 0 2px;
     }
     .fullscreen-content .full-logo{
         width: 82%;
