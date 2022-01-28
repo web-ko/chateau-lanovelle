@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>wine - landing-page</title>
+	<title>Home - Château Lanovelle</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- <link rel="icon" href=""> საიტის აიკონი, სადაც ჩატვირთვის ადგილას შეიძლება გამოჩნდეს ლოგო ან რაიმე ნიშანი -->
 	
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
@@ -15,20 +14,14 @@
 	<link rel="stylesheet" type="text/css" href="css/landing.css">
 </head>
 <body class="landing-img">
-	<!-- პირველი ვარიანტი fade-ით, ჯავათი (უფრო კარგია) -->
 	<img id="bg1" class="bgImg" src="img/bg-12.jpg">
 	<img id="bg2" class="bgImg" src="img/bg.jpg">
 	<img id="bg3" class="bgImg" src="img/bg-6.jpg">
-	<!-- end of პირველი ვარიანტი ჯავათი (უფრო კარგია) -->
-	<!-- მეორე ვარიანტი landing-img -->
 		<div class="overlay"></div>
-	<header>
-		<nav class="navbar navbar-light p-5">
-			<!-- თუ მინდა ბურგერი თავიდანვე ჩანდეს navbar-expand-ს წავშლი-->
+	<header class="container-fluid fixed-top">
+		<nav class="navbar navbar-light">
 			<div class="container-fluid burger">
 				<nav class="social-toggler order-last">
-		    		<!-- როცა მინდა navbar-ის რაიმე ელემენტი toggler-ის გვერდით იყოს და არა ცენტრში ვამატებ ml-auto-ს ან ms-auto-ს (თუმცა, მემგონი იმ შემთხვევაში, როდესაც ბურგერი თავიდანვე არ ჩანს). როდესაც toggler-ი არის მარცხნივ და მინდა მის გვერდით დავამატო რაიმე ელემენტი ვამატებ me-auto-ს. აგრეთვე როცა მინდა toggler-ის გვერდით რაიმე ელემენტი დავამატო toggler-ის გამოჩენის რეზოლუციის ცვლილებისას, social-toggler ml-auto-ს ვამატებ d-flex-ს. შემდეგ navbar-ში გამეორებულ ელემენტს დავმალავ @media-ას მეშვეობით. როცა მინდა ენის ბარს ფერის შეეცვალოს <nav class="social-toggler"> კლასში ვამატებ icon-ს-->
-		    		<!-- <a class="navbar-brand onl" href="#">Online Sale</a> -->
 					<div class="dropdown">
 		    			<a class="nav-link navbar-brand lang-switch-ourwines lang-switch-margin dropdown-toggle" href="javascript:void(0)" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">EN</a>
 		    			<ul class="dropdown-menu dropdown-lang" aria-labelledby="dropdownMenuButton1">
@@ -55,25 +48,13 @@
 	      <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	      </div>
 		</nav>
-		<div class="container">
+		<!-- <div class="container">
 			<div class="row landing-page">
 				<div class="col-xxl-4 col-lg-4 col-md-6 col-sm-6 col-6 landing-page-logo">
 					<a class="logo-link" href="index.html"><img class="logo" src="img/chateau lanovelle logo.svg"></a>
 				</div>
 			</div>
-		</div>
-		<!-- <div class="container cont-wines">
-			<div class="row">
-				<div class="col-12 col-wines">
-					<a href="#"><img class="wine" src="img/wines.png"></a>
-				</div>
-			</div>
 		</div> -->
-		<div class="d-flex justify-content-center">
-			<div class="baseline">
-				<h1 class="text-center">Welcome to Lanovelle, a land of wine and legends.</h1>
-			</div>
-		</div>
 		<div class="fullscreen">
 			<!-- <ul>
 				<li><a class="full-logo-link" href="#"><img class="full-logo" src="img/ROEDERER_logotype white.svg"></a></li>
@@ -98,9 +79,9 @@
 			<ul>
 				<li><a class="full-logo-link" href="index.html"><img class="full-logo" src="img/chateau lanovelle logo-white.svg"></a></li>
 				<li class="story"><a href="legends.html">A STORY OF LEGENDS… TO DREAM</a></li>
-				<li class="glimpse"><a href="history.html">A GLIMPSE INTO THE PAST… TO UNDERSTAND</a></li>
+				<li class="glimpse"><a href="history.html">A&#160GLIMPSE&#160INTO&#160THE&#160PAST…&#160TO&#160UNDERSTAND</a></li>
 				<li class="vineyard"><a href="vineyard.html">A VINEYARD… TO EXPLORE</a></li>
-				<li class="wines"><a href="our-wines.html">WINES… TO TASTE</a></li>
+				<li class="wines-content"><a href="our-wines.html">WINES… TO TASTE</a></li>
 				<li class="dash"><a href="#">—</a></li>
 				<li class="tablede"><a href="table.html">THE TABLE LANOVELLE… TO SHARE</a></li>
 				<li class="visiting"><a href="visiting.html">VISITING CHÂTEAU LANOVELLE</a></li>
@@ -115,6 +96,18 @@
 			</ul>
 		</div>
 	</header>
+	<div class="container">
+			<div class="row landing-page">
+				<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-8 landing-page-logo">
+					<a class="logo-link" href="index.html"><img class="logo" src="img/chateau lanovelle logo.svg"></a>
+				</div>
+			</div>
+		</div>
+	<div class="d-flex justify-content-center">
+		<div class="baseline">
+			<h1 class="text-center">Welcome to Lanovelle, a land of wine and legends.</h1>
+		</div>
+	</div>
 	
 
 	
