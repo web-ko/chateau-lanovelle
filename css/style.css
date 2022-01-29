@@ -430,6 +430,12 @@ ul{
     letter-spacing: 1px;
     text-decoration: none;
     line-height: 2.5;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.fullscreen-content ul li a:hover{
+    color: #b5b5b5;
 }
 .fullscreen-content .contact {
     font-family: "Segoe UI Symbol";
@@ -1255,6 +1261,10 @@ ul{
 @media(max-width: 480px){
     .fixed-top {
         padding: 2.1875rem 0;
+    }
+    .history-logo {
+        width: 52%;
+        margin-top: 21%;
     }
 }
 @media(max-width: 428px){

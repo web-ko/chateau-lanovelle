@@ -291,6 +291,27 @@
 	}
 }
 @media(max-width: 480px){
+	.wine-logo-1 {
+	    position: absolute;
+	    top: 24%;
+	    width: 41%;
+	}
+.overlay{
+	    position: absolute;
+	    top: 30%;
+	    left: 46%;
+	    width: 30%;
+	    height: 13%;
+	    -webkit-transform: translate(-33%, -19%);
+	        -ms-transform: translate(-33%, -19%);
+	            transform: translate(-33%, -19%);
+	    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .7)), to(rgba(255, 255, 255, .7)));
+	    background-image: -o-linear-gradient(rgba(255, 255, 255, .7), rgba(255, 255, 255, .7));
+	    background-image: linear-gradient(rgba(255, 255, 255, .7), rgba(255, 255, 255, .7));
+	    /*mix-blend-mode: color-dodge;*/
+    	-webkit-filter: blur(30px);
+    	        filter: blur(30px);
+	}
 	.toggled-content h2{
 		font-size: 3.7vw;
 	}
