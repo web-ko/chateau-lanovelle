@@ -411,6 +411,16 @@ ul{
     z-index: 1;
     text-align: center;
 }
+.fullscreen-content.open .full-logo-link{
+    pointer-events: none;
+}
+.fullscreen-content.open .full-logo{
+    pointer-events: all;
+}
+.fullscreen-content.open ul{
+    position: absolute;
+    top: 8%;
+}
 .fullscreen-content ul li a{
     display: block;
     font-family: "BodoniStd";
@@ -433,8 +443,11 @@ ul{
     margin-top: 22px;
 }
 .fullscreen-content .fa-twit-inst {
+        margin: 15px 88px;
+    }
+/*.fullscreen-content .fa-twit-inst {
     margin: 15px 139px;
-}
+}*/
 .fullscreen-content .dash{
     margin-top: 6px;
 }
@@ -1093,8 +1106,13 @@ ul{
     }
     .fullscreen-content.open{
         overflow-y: auto;
-        padding-top: 168px;
-        padding-bottom: 40px;
+        /*padding-top: 168px;
+        padding-bottom: 80px;*/
+    }
+    .fullscreen-content.open ul {
+        position: absolute;
+        top: 8%;
+        bottom: -8%;
     }
     .text {
         width: 100%;
@@ -1191,10 +1209,10 @@ ul{
         width: 33%;
         margin-top: 17%;
     }
-    .fullscreen-content.open {
+    /*.fullscreen-content.open {
         padding-top: 76px;
         padding-bottom: 40px;
-    }
+    }*/
     .fullscreen-content .full-logo {
         width: 73%;
         margin-top: 22px;
@@ -1214,25 +1232,15 @@ ul{
     .fullscreen-content .fa-twit-inst li a{
         font-size: .9rem;
     }
-    /*.fullscreen-content .fa-twit-inst {
-        margin: 15px 88px;
-    }*/
 }
 @media(max-width: 630px){
-    .fullscreen-content ul li a {
+    /*.fullscreen-content ul li a {
         font-size: 11.2px;
-    }
-    .fullscreen-content.open {
+    }*/
+    /*.fullscreen-content.open {
         padding-top: 38px;
         padding-bottom: 40px;
-    }
-    .fullscreen-content .contact {
-        font-family: "Segoe UI Symbol";
-        font-size: 10px;
-    }
-    .fullscreen-content .fa-twit-inst {
-        margin: 15px 88px;
-    }
+    }*/
     .wines{
         max-width: 300px;
     }
@@ -1244,11 +1252,18 @@ ul{
         font-size: .8rem;
     }
 }
-@media(max-width: 414px){
-    .fullscreen-content.open {
-        padding-top: 0;
-        padding-bottom: 40px;
-        margin-top: 0;
+@media(max-width: 480px){
+    .fixed-top {
+        padding: 2.1875rem 0;
+    }
+}
+@media(max-width: 428px){
+    .fullscreen-content ul li a {
+        font-size: 11.2px;
+    }
+    .fullscreen-content .contact {
+        font-family: "Segoe UI Symbol";
+        font-size: 10px;
     }
 }
 @media(max-width: 408px){
