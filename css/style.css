@@ -174,8 +174,8 @@ ul{
     transition: .35s;
 }
 .scrolled .shopping-cart{
-    padding-top: 0.25rem;
-    padding-bottom: .2rem;
+    padding-top: 0.27rem;
+    padding-bottom: .18rem;
     background-color: #fff;
 }
 .scrolled .langswitcher a, .scrolled .togglerlangswitcher a, .scrolled .shoppingCartButton, .scrolled .shoppingCartButt, .scrolled .sum-price{
@@ -1287,13 +1287,19 @@ ul{
             -ms-transform-origin: top;
                 transform-origin: top;
     }
-    .shopping-cart, .scrolled .shopping-cart{
-        -webkit-transform: scale(.8) translateX(-15px);
-            -ms-transform: scale(.8) translateX(-15px);
-                transform: scale(.8) translateX(-15px);
+    .shopping-cart, .scrolled .shopping-cart {
+        -webkit-transform: scale(.8) translateX(-16px);
+            -ms-transform: scale(.8) translateX(-16px);
+                transform: scale(.8) translateX(-16px);
         -webkit-transform-origin: top;
             -ms-transform-origin: top;
                 transform-origin: top;
+        padding-left: 6px;
+    }
+    .nav-transf, .nav-transf.scrolled{
+        -webkit-transform: translateX(13px);
+            -ms-transform: translateX(13px);
+                transform: translateX(13px);
     }
 }
 @media(max-width: 360px){
