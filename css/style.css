@@ -156,7 +156,7 @@ ul{
 .scrolled .nav-link {
     color: rgba(0, 0, 0, 0.55)!important;
 }
-.shoppingCartButton{
+.shoppingCartButton, .shoppingCartButt{
     cursor: pointer;
     font-size: .9rem;
     -webkit-transition: .35s;
@@ -178,7 +178,7 @@ ul{
     padding-bottom: .2rem;
     background-color: #fff;
 }
-.scrolled .langswitcher a, .scrolled .togglerlangswitcher a, .scrolled .shoppingCartButton, .scrolled .sum-price{
+.scrolled .langswitcher a, .scrolled .togglerlangswitcher a, .scrolled .shoppingCartButton, .scrolled .shoppingCartButt, .scrolled .sum-price{
     color: #313233;
 }
 .togglerlangswitcher a{
