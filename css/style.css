@@ -1288,9 +1288,9 @@ ul{
                 transform-origin: top;
     }
     .shopping-cart, .scrolled .shopping-cart {
-        -webkit-transform: scale(.8) translateX(-16px);
-            -ms-transform: scale(.8) translateX(-16px);
-                transform: scale(.8) translateX(-16px);
+        -webkit-transform: scale(.8) translate(-16px, 2px);
+            -ms-transform: scale(.8) translate(-16px, 2px);
+                transform: scale(.8) translate(-16px, 2px);
         -webkit-transform-origin: top;
             -ms-transform-origin: top;
                 transform-origin: top;
