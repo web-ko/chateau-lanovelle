@@ -164,18 +164,22 @@ ul{
     transition: .35s;
 }
 .shopping-cart-margin{
-    margin-right: .5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.56rem;
+    margin-bottom: 0.52rem;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 .shopping-cart{
-    padding-top: 0.27rem;
-    padding-bottom: .18rem;
+    /*padding-top: 0.25rem;
+    padding-bottom: .2rem;*/
     -webkit-transition: .35s;
     -o-transition: .35s;
     transition: .35s;
 }
 .scrolled .shopping-cart{
-    padding-top: 0.27rem;
-    padding-bottom: .18rem;
+    /*padding-top: 0.25rem;
+    padding-bottom: .2rem;*/
     background-color: #fff;
 }
 .scrolled .langswitcher a, .scrolled .togglerlangswitcher a, .scrolled .shoppingCartButton, .scrolled .shoppingCartButt, .scrolled .sum-price{
@@ -1288,18 +1292,30 @@ ul{
                 transform-origin: top;
     }
     .shopping-cart, .scrolled .shopping-cart {
-        -webkit-transform: scale(.8) translate(-16px, 2px);
-            -ms-transform: scale(.8) translate(-16px, 2px);
-                transform: scale(.8) translate(-16px, 2px);
-        -webkit-transform-origin: top;
-            -ms-transform-origin: top;
-                transform-origin: top;
-        padding-left: 6px;
+       -webkit-transform: scale(.8) translateX(-16px);
+           -ms-transform: scale(.8) translateX(-16px);
+               transform: scale(.8) translateX(-16px);
+       -webkit-transform-origin: top;
+           -ms-transform-origin: top;
+               transform-origin: top;
+               padding-left: 6px;
+    }
+    .shopping-cart-margin {
+        margin-right: 0.5rem;
+        margin-top: 0.54rem;
+        margin-bottom: 0.53rem;
+        padding-top: 0;
+        padding-bottom: 0;
     }
     .nav-transf, .nav-transf.scrolled{
         -webkit-transform: translateX(13px);
             -ms-transform: translateX(13px);
                 transform: translateX(13px);
+    }
+    .burger{
+        -webkit-box-align: center!important;
+            -ms-flex-align: center!important;
+                align-items: center!important;
     }
 }
 @media(max-width: 360px){
