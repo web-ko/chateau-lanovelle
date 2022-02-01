@@ -151,6 +151,9 @@ ul{
 }
 /*end of checkout*/
 .scrolled .lang-switch-ourwines{
+    /*background-color: #fff;*/
+}
+.nav-transf.scrolled{
     background-color: #fff;
 }
 .scrolled .nav-link {
@@ -180,7 +183,7 @@ ul{
 .scrolled .shopping-cart{
     /*padding-top: 0.25rem;
     padding-bottom: .2rem;*/
-    background-color: #fff;
+    /*background-color: #fff;*/
 }
 .scrolled .langswitcher a, .scrolled .togglerlangswitcher a, .scrolled .shoppingCartButton, .scrolled .shoppingCartButt, .scrolled .sum-price{
     color: #313233;
@@ -1284,21 +1287,22 @@ ul{
                 transform-origin: top;
     }
     .dropdown, .scrolled .dropdown, .dropdown-menu, .scrolled .dropdown-menu{
-        -webkit-transform: scale(.8);
-            -ms-transform: scale(.8);
-                transform: scale(.8);
+        -webkit-transform: scale(.8) translateY(4px);
+            -ms-transform: scale(.8) translateY(4px);
+                transform: scale(.8) translateY(4px);
         -webkit-transform-origin: top;
             -ms-transform-origin: top;
                 transform-origin: top;
     }
     .shopping-cart, .scrolled .shopping-cart {
-       -webkit-transform: scale(.8) translateX(-16px);
-           -ms-transform: scale(.8) translateX(-16px);
-               transform: scale(.8) translateX(-16px);
+       -webkit-transform: scale(.8) translate(-15px, 3px);
+           -ms-transform: scale(.8) translate(-15px, 3px);
+               transform: scale(.8) translate(-15px, 3px);
        -webkit-transform-origin: top;
            -ms-transform-origin: top;
                transform-origin: top;
                padding-left: 6px;
+               margin-right: -13px;
     }
     .shopping-cart-margin {
         margin-right: 0.5rem;
@@ -1308,14 +1312,14 @@ ul{
         padding-bottom: 0;
     }
     .nav-transf, .nav-transf.scrolled{
-        -webkit-transform: translateX(13px);
-            -ms-transform: translateX(13px);
-                transform: translateX(13px);
+        -webkit-transform: scale(.8) translateX(13px);
+            -ms-transform: scale(.8) translateX(13px);
+                transform: scale(.8) translateX(13px);
     }
     .burger{
-        -webkit-box-align: center!important;
-            -ms-flex-align: center!important;
-                align-items: center!important;
+        -webkit-box-align: start!important;
+            -ms-flex-align: start!important;
+                align-items: flex-start!important;
     }
 }
 @media(max-width: 360px){
