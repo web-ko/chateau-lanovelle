@@ -1279,9 +1279,9 @@ ul{
                 transform: translateY(35px);
     }
     #wrapper, .scrolled #wrapper{
-        -webkit-transform: scale(.8);
-            -ms-transform: scale(.8);
-                transform: scale(.8);
+        -webkit-transform: scale(.8) translate(-8px);
+            -ms-transform: scale(.8) translate(-8px);
+                transform: scale(.8) translate(-8px);
         -webkit-transform-origin: top;
             -ms-transform-origin: top;
                 transform-origin: top;
