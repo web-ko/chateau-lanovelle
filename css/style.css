@@ -1006,7 +1006,7 @@ ul{
     outline: none!important;
 }
 .btn{
-    display: inline-block;
+    display: table-cell;
     font-weight: 400;
     font-family: "BodoniStdBold";
     line-height: 1.5;
