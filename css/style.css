@@ -998,36 +998,18 @@ ul{
 }
 
 .btn-check:focus + .btn-primary, .btn-primary:focus{
-    color: #d0ccc6;
+    color: red;
     background-color: #614e35;
     border-color: #614e35;
     -webkit-box-shadow: none!important;
             box-shadow: none!important;
     outline: none!important;
 }
-/* button-ის მეორე (ჩემი, არა bootstrap-ის) ვარიანტი. იმ შემთხვევაში, როდესაც რესპონსივზე, მობილურის ზომაზე, ღილაკში ჩაწერილი სიტყვა More არ სწორდება ვერტიკლურად ცენტრზე. */
-.bttBox-div{
-    position: relative;
-}
-.bttBox{
-    width: 62px;
-    height: 32px;
-    background-color: #614e35;
-}
-.bttBox h5{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: "BodoniStdBold";
-    font-size: 1rem;
-}
-/* end of button-ის მეორე (ჩემი, არა bootstrap-ის) ვარიანტი */
 .btn{
     display: inline-block;
     font-weight: 400;
     font-family: "BodoniStdBold";
-    line-height: 1.5;
+    line-height: 150%;
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
