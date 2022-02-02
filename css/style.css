@@ -998,7 +998,7 @@ ul{
 }
 
 .btn-check:focus + .btn-primary, .btn-primary:focus{
-    color: red;
+    color: green;
     background-color: #614e35;
     border-color: #614e35;
     -webkit-box-shadow: none!important;
@@ -1009,7 +1009,7 @@ ul{
     display: inline-block;
     font-weight: 400;
     font-family: "BodoniStdBold";
-    line-height: 150%;
+    line-height: 25px;
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
