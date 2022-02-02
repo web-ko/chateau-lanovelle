@@ -63,10 +63,10 @@ function reveal(){
 
 
 btn.addEventListener("click", () => {
-    if (btn.innerText == "More") {
-        btn.innerText = "Less";
+    if (btn1.innerText == "More") {
+        btn1.innerText = "Less";
     } else {
-        btn.innerText = "More"
+        btn1.innerText = "More"
     }
 })
 
