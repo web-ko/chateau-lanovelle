@@ -16,10 +16,13 @@
 <body class="visiterContact">
 	<header id="navigation" class="container-fluid fixed-top">
 		<nav class="navbar navbar-light">
+			<!-- თუ მინდა ბურგერი თავიდანვე ჩანდეს navbar-expand-ს წავშლი-->
 			<div class="container-fluid burger">
 				<nav class="social-toggler order-last">
+		    		<!-- როცა მინდა navbar-ის რაიმე ელემენტი toggler-ის გვერდით იყოს და არა ცენტრში ვამატებ ml-auto-ს ან ms-auto-ს (თუმცა, მემგონი იმ შემთხვევაში, როდესაც ბურგერი თავიდანვე არ ჩანს). როდესაც toggler-ი არის მარცხნივ და მინდა მის გვერდით დავამატო რაიმე ელემენტი ვამატებ me-auto-ს. აგრეთვე როცა მინდა toggler-ის გვერდით რაიმე ელემენტი დავამატო toggler-ის გამოჩენის რეზოლუციის ცვლილებისას, social-toggler ml-auto-ს ვამატებ d-flex-ს. შემდეგ navbar-ში გამეორებულ ელემენტს დავმალავ @media-ას მეშვეობით. როცა მინდა ენის ბარს ფერის შეეცვალოს <nav class="social-toggler"> კლასში ვამატებ icon-ს-->
+		    		<!-- <a class="navbar-brand onl" href="#">Online Sale</a> -->
 					<div class="dropdown">
-		    			<a class="nav-link navbar-brand lang-switch-ourwines lang-backgr lang-switch-margin dropdown-toggle" href="javascript:void(0)" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">EN</a>
+		    			<a class="nav-link navbar-brand lang-switch-ourwines lang-switch-margin dropdown-toggle" href="javascript:void(0)" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">EN</a>
 		    			<ul class="dropdown-menu dropdown-lang" aria-labelledby="dropdownMenuButton1">
 		    				<li><a href="javascript:void(0)" class="dropdown-item">GEO</a></li>
 		    				<li><a href="javascript:void(0)" class="dropdown-item">FR</a></li>
@@ -68,26 +71,26 @@
 			<ul>
 				<li><a class="full-logo-link" href="index.html"><img class="full-logo" src="img/chateau lanovelle logo-white.svg"></a></li>
 				<li class="story"><a href="legends.html">A STORY OF LEGENDS… TO DREAM</a></li>
-				<li class="glimpse"><a href="history.html">A GLIMPSE INTO THE PAST…</a></li>
+				<li class="glimpse"><a href="history.html">A GLIMPSE INTO THE PAST… TO UNDERSTAND</a></li>
 				<li class="vineyard"><a href="vineyard.html">A VINEYARD… TO EXPLORE</a></li>
-				<li class="wines-content"><a href="our-wines.html">WINES… TO TASTE</a></li>
+				<li class="wines"><a href="our-wines.html">WINES… TO TASTE</a></li>
 				<li class="dash"><a href="#">—</a></li>
 				<li class="tablede"><a href="table.html">THE TABLE LANOVELLE… TO SHARE</a></li>
 				<li class="visiting"><a href="visiting.html">VISITING CHÂTEAU LANOVELLE</a></li>
 				<li class="dash"><a href="#">—</a></li>
 				<li class="contacts contactof"><a class="contact" href="contact.html">CONTACT</a></li>
 				<li class="news"><a class="contact" href="#">NEWS</a></li>
-				<div class="fa-twit-inst d-flex justify-content-around">
+				<ul class="fa-twit-inst d-flex justify-content-around">
 					<li class="facebook"><a class="social" href="#"><i class="fab fa-facebook-f"></i></a></li>
 					<li class="twitter"><a class="social" href="#"><i class="fab fa-twitter"></i></a></li>
 					<li class="instagram"><a class="social" href="#"><i class="fab fa-instagram"></i></a></li>
-				</div>
+				</ul>
 			</ul>
 		</div>
 	</header>
 	<div class="container">
 		<div class="row menu-logo">
-			<div class="col-xxl-3 col-xl-3 col-lg-4 col-md-5 col-sm-6 col-7 page-logo">
+			<div class="col-xxl-3 col-lg-3 col-md-5 col-sm-5 col-6 page-logo">
 				<a class="logo-link" href="index.html"><img class="logo" src="img/chateau lanovelle logo.svg"></a>
 			</div>
 		</div>
@@ -139,7 +142,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="d-flex align-items-baseline mt-3 second-line for-max">
+								<div class="d-flex align-items-baseline mt-3 second-line">
 									<label for="email" class="form-label">Email*</label>
 									<div class="forValidate">
 										<input type="email" id="email" class="form-control inputBack-em" required>
@@ -148,11 +151,11 @@
 										</div>
 									</div>
 								</div>
-								<div class="d-flex align-items-baseline mt-3 third-line for-max">
+								<div class="d-flex align-items-baseline mt-3 third-line">
 									<label for="phoneNumber" class="form-label">Phone</label>
 									<input type="text" id="phoneNumber" class="form-control inputBack-ph" name="phone" onkeypress="isInputNumber(event)">
 								</div>
-								<div class="d-flex align-items-baseline mt-3 fourth-line for-max">
+								<div class="d-flex align-items-baseline mt-3 fourth-line">
 									<label for="contact-civility" class="form-label">Subject*</label>
 									<div class="forValidate">
 										<select id="contact-civility" class="form-control inputBack-sb form-select contact-civil-sel-1" required>
@@ -166,37 +169,6 @@
 											</option>
 										</select>
 										<div class="invalid-feedback for-merg-sel">
-											Valid subject is required.
-										</div>
-									</div>
-								</div>
-								<div class="mt-3 second-line for-576">
-									<label for="email" class="form-label">Email*</label>
-									<div class="forValidate">
-										<input type="email" id="email" class="form-control inputBack-576" required>
-										<div class="invalid-feedback for-merg">
-											Valid email is required.
-										</div>
-									</div>
-								</div>
-								<div class="mt-3 third-line for-576">
-									<label for="phoneNumber" class="form-label">Phone</label>
-									<input type="text" id="phoneNumber" class="form-control inputBack-576" name="phone" onkeypress="isInputNumber(event)">
-								</div>
-								<div class="mt-3 fourth-line for-576">
-									<label for="contact-civility" class="form-label">Subject*</label>
-									<div class="forValidate">
-										<select id="contact-civility" class="form-control inputBack-sb-576 form-select contact-civil-sel-1" required>
-											<option value="">---
-											</option>
-											<option value="Table de Lanovelle" class="contact-civil">Table de Lanovelle
-											</option>
-											<option value="Tour and tasting" class="contact-civil">Tour and tasting
-											</option>
-											<option value="Other" class="contact-civil">Other
-											</option>
-										</select>
-										<div class="invalid-feedback for-merg">
 											Valid subject is required.
 										</div>
 									</div>
