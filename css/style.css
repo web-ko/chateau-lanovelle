@@ -998,7 +998,7 @@ ul{
 }
 
 .btn-check:focus + .btn-primary, .btn-primary:focus{
-    color: #d0ccc6;
+    color: red;
     background-color: #614e35;
     border-color: #614e35;
     -webkit-box-shadow: none!important;
