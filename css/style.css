@@ -998,7 +998,7 @@ ul{
 }
 
 .btn-check:focus + .btn-primary, .btn-primary:focus{
-    color: red;
+    color: #d0ccc6;
     background-color: #614e35;
     border-color: #614e35;
     -webkit-box-shadow: none!important;
@@ -1018,7 +1018,7 @@ ul{
     -moz-user-select: none;
     -ms-user-select: none;
         user-select: none;
-    padding: 3.2px 12px;
+    padding: 0.2rem 0.75rem;
     font-size: 1rem;
     color: #d0ccc6;
 }
