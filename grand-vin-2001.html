@@ -43,8 +43,11 @@
     <!-- end of add to cart -->
 	<header id="navigation" class="container-fluid fixed-top">
 		<nav class="navbar navbar-light">
-			<div class="container-fluid align-items-start burger">
-				<nav class="social-toggler order-last d-flex align-items-baseline nav-transf">
+			<!-- თუ მინდა ბურგერი თავიდანვე ჩანდეს navbar-expand-ს წავშლი-->
+			<div class="container-fluid burger">
+				<nav class="social-toggler order-last d-flex align-items-baseline">
+		    		<!-- როცა მინდა navbar-ის რაიმე ელემენტი toggler-ის გვერდით იყოს და არა ცენტრში ვამატებ ml-auto-ს ან ms-auto-ს (თუმცა, მემგონი იმ შემთხვევაში, როდესაც ბურგერი თავიდანვე არ ჩანს). როდესაც toggler-ი არის მარცხნივ და მინდა მის გვერდით დავამატო რაიმე ელემენტი ვამატებ me-auto-ს. აგრეთვე როცა მინდა toggler-ის გვერდით რაიმე ელემენტი დავამატო toggler-ის გამოჩენის რეზოლუციის ცვლილებისას, social-toggler ml-auto-ს ვამატებ d-flex-ს. შემდეგ navbar-ში გამეორებულ ელემენტს დავმალავ @media-ას მეშვეობით. როცა მინდა ენის ბარს ფერის შეეცვალოს <nav class="social-toggler"> კლასში ვამატებ icon-ს-->
+		    		<!-- <a class="navbar-brand onl" href="#">Online Sale</a> -->
 					<div class="dropdown">
 		    			<a class="nav-link navbar-brand lang-switch-ourwines lang-switch-margin dropdown-toggle" href="javascript:void(0)" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">EN</a>
 		    			<ul class="dropdown-menu dropdown-lang" aria-labelledby="dropdownMenuButton1">
@@ -52,6 +55,7 @@
 		    				<li><a href="javascript:void(0)" class="dropdown-item">FR</a></li>
 		    			</ul>
 		    		</div>
+		    		<!-- როცა მინდა ფასზეც გამოდიოდეს ceckout-ი, მაშინ shoppingCartButton კლასს ვამატედ <div class="shopping-cart shoppingCartButton"-ს და <i class="fas fa-shopping-cart shoppingCartButton"></i>-ს გადავაკეთებ shoppingCartButt-ად და css-ში იგივე სტილს ვანიჭებ. თუ არ მინდა მაშინ <div class="shopping-cart shoppingCartButton"-ს ვულშლი shoppingCartButton-ს და ჩვწერ <i class="fas fa-shopping-cart shoppingCartButton"></i>-ში shoppingCartButt-ის მაგივრად -->
 		    		<div class="shopping-cart shoppingCartButton">
 						<div class="navbar-brand shopping-cart-margin lang-switch sum-prices d-flex" title="Add to Cart">
 							<i class="fas fa-shopping-cart shoppingCartButt"></i>
@@ -101,27 +105,28 @@
 			<ul>
 				<li><a class="full-logo-link" href="index.html"><img class="full-logo" src="img/chateau lanovelle logo-white.svg"></a></li>
 				<li class="story"><a href="legends.html">A STORY OF LEGENDS… TO DREAM</a></li>
-				<li class="glimpse"><a href="history.html">A GLIMPSE INTO THE PAST…</a></li>
+				<li class="glimpse"><a href="history.html">A GLIMPSE INTO THE PAST… TO UNDERSTAND</a></li>
 				<li class="vineyard"><a href="vineyard.html">A VINEYARD… TO EXPLORE</a></li>
-				<li class="wines-content winesto"><a href="our-wines.html">WINES… TO TASTE</a></li>
+				<li class="wines winesto"><a href="our-wines.html">WINES… TO TASTE</a></li>
 				<li class="dash"><a href="#">—</a></li>
 				<li class="tablede"><a href="table.html">THE TABLE LANOVELLE… TO SHARE</a></li>
 				<li class="visiting"><a href="visiting.html">VISITING CHÂTEAU LANOVELLE</a></li>
 				<li class="dash"><a href="#">—</a></li>
 				<li class="contacts"><a class="contact" href="contact.html">CONTACT</a></li>
 				<li class="news"><a class="contact" href="#">NEWS</a></li>
-				<div class="fa-twit-inst d-flex justify-content-around">
+				<ul class="fa-twit-inst d-flex justify-content-around">
 					<li class="facebook"><a class="social" href="#"><i class="fab fa-facebook-f"></i></a></li>
 					<li class="twitter"><a class="social" href="#"><i class="fab fa-twitter"></i></a></li>
 					<li class="instagram"><a class="social" href="#"><i class="fab fa-instagram"></i></a></li>
-				</div>
+				</ul>
 			</ul>
 		</div>
 	</header>
 	<section>
 		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-7 col-md-12 col-lg-12">
+			<div class="row">
+				<!-- როცა მინდა ცენტრში მოხვდეს ობიექტი, კლასში ვამატებ mx-auto, მაგ.: col-4 mx-auto -->
+				<div class="col-12">
 					<div class="wine-logo">
 						<a href="index.html"><img class="hist-img" src="img/chateau lanovelle logo.svg"></a>
 					</div>
@@ -166,14 +171,23 @@
 						</p>
 						<a href="our-wines.html" class="close-page">X</a>
 						<button id="btn" type="button" class="btn btn-primary button-details">More</button>
+						<!-- button-ის მეორე (ჩემი, არა bootstrap-ის) ვარიანტი. იმ შემთხვევაში, როდესაც რესპონსივზე, მობილურის ზომაზე, ღილაკში ჩაწერილი სიტყვა More არ სწორდება ვერტიკლურად ცენტრზე. -->
+						<!-- <div class="bttBox-div d-flex justify-content-center">
+							<div id="btn" class="bttBox button-details" type="button">
+								<h5 id="btn1">More</h5>
+							</div>
+						</div> -->
+						<!-- end of button-ის მეორე (ჩემი, არა bootstrap-ის) ვარიანტი. -->
 					</div>
 				</div>
 			</div>
 		</div>
 		<div id="hideme" class="container-fluid hideme">
 			<div class="row p-5">
+				<!-- როცა მინდა კოლონის გაწევა ვწერ offset-xl-2 offset-lg-3 offset-md-2 offset-sm-2 ციფრებს (1, 2, 3, 4 და ა. შ.) ვწერ იმის და მიხედივთ რამდენად მინდა გავწიო კოლონა. -->
 				<div class="col-12 offset-lg-2 hideme-width product-under">
 					<img class="imghide" src="img/chateau-lanovelle-2001.png">
+					<!-- img თაგი უნდა იყოს შვილ თაგად, კლასის - "productName"-ის თავზე, მიუხედავად იმისა, მჭირდება თუ არა, ამიტომ შევქმნი და დავმალავ. -->
 					<ul>
 						<li>Type: Dry White</li>
 						<li>Vintage: 2001</li>
@@ -187,6 +201,7 @@
 					<p><b>Vinification</b>: The grapes are transferred into vibrating bins and then moved on an extremely gentle conveyor belt to the crusher. De-stemming and immediate chilling of the must at 5-6оC while being transferred for de-juicing or skin maceration under strict ambient inert gas with in-line injection, as well as inert conditions in the tank space. Free run separation and juice settling under temperature control. Decanted. Fermentation of clear juice at 14 to 15оC using only selected yeast species. Elevage by means of “Sur Lie”. Style, balance and preparation for bottling. Bottling is done under the highest standards protecting the wine from all possibilities for quality issues.
 					</p>
 					<h6 class="productName prodnmhide">Grand Vin 2001</h6>
+					<!-- <h6 class="productName prodnmhide">Grand Vin 2001</h6> უნდა იყოს img თაგის ქვემოთ, მჭირდება თუ არა, ამიტომ შევქმნი და დავმალავ. -->
 					<h6 class="mt-3 cost"><span class="priceValue">101</span> &#8382;</h6>
 					<a href="javascript:void(0)">
 						<button type="button" class="btn btn-primary mt-3 addToCart" data-product-id="1">Add to Cart</button>
