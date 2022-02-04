@@ -996,29 +996,6 @@ ul{
     border-color: #4a3c29!important;
     color: #d0ccc6!important;
 }
-
-/*ttttttt*/
-.bttBox-div{
-    position: relative;
-}
-.bttBox{
-    width: 62px;
-    height: 32px;
-    background-color: #614e35;
-}
-.bttBox h5{
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    font-family: "BodoniStdBold";
-    font-size: 1rem;
-    margin-bottom: -0.5rem;
-}
-/*ttttttt*/
-
 .btn-check:focus + .btn-primary, .btn-primary:focus{
     color: #d0ccc6;
     background-color: #614e35;
