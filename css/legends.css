@@ -448,7 +448,7 @@ ul{
     color: #423d35;
     
     font-size: 1.1rem;
-    text-transform: uppercase;
+    
     padding: 0.3rem 1.9rem;
 }
 .bookTour:hover, .bookTour:active, .bookTour:focus, .bookTour-1:hover, .bookTour-1:active, .bookTour-1:focus, .bookTour-2:hover, .bookTour-2:active, .bookTour-2:focus{
