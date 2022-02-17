@@ -845,15 +845,13 @@ ul{
     margin-top: 76px;
 }
 .wine-bottles{
+    max-width: 424px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-}
-.wines{
-    max-width: 424px;
 }
 .wine-bottle{
     display: -webkit-box;
@@ -886,29 +884,32 @@ ul{
 .wine-present{
     background-color: #313233;
 }
-.bottle-txt{
-    --bs-gutter-x: 2.8rem;
-    margin-top: 30px;
-}
 .wine-text-bottle{
-    display: -webkit-box;
+    max-width: 404px;
+    padding-top: 1.125rem;
+    /*display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center;
+            justify-content: center;*/
+    z-index: 1111;
+}
+.wine-text-bottle-1 {
+    max-width: 780px;
+    padding-top: 1.875rem;
+    padding-bottom: 1.5rem;
     z-index: 1111;
 }
 .backcolor{
-    display: -webkit-box;
+    /*display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center;
+            justify-content: center;*/
     z-index: 1111;
     background-color: #313233;
-    padding-bottom: 24px;
 }
 .wine-bottle-text{
     text-align: center;
@@ -961,9 +962,9 @@ ul{
 .wine-bottle-text:hover .down-arrow{
     opacity: .5;
 }
-.bottle-col{
+/*.bottle-col{
     max-width: 800px;
-}
+}*/
 .bottle-col a:hover{
     color: rgba(237, 233, 225, .5);
 }
@@ -996,6 +997,7 @@ ul{
     border-color: #4a3c29!important;
     color: #d0ccc6!important;
 }
+
 .btn-check:focus + .btn-primary, .btn-primary:focus{
     color: #d0ccc6;
     background-color: #614e35;
@@ -1142,13 +1144,6 @@ ul{
         width: 26%;
         margin-top: 14%;
     }
-    .wines {
-        max-width: 400px;
-    }
-    .bottle-txt {
-        --bs-gutter-x: 2.3rem;
-        margin-top: 30px;
-    }
 }
 @media(max-width: 900px){
     .text {
@@ -1235,12 +1230,12 @@ ul{
     }
 }
 @media(max-width: 630px){
-    .wines{
+    .wine-bottles {
         max-width: 300px;
+        margin-top: 0.0625rem;
     }
     .bottle-txt {
         --bs-gutter-x: 0.9rem;
-        margin-top: 30px;
     }
     .chato, .gr-vin{
         font-size: .8rem;
