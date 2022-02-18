@@ -1234,8 +1234,11 @@ ul{
         max-width: 300px;
         margin-top: 0.0625rem;
     }
+    .wine-text-bottle {
+        max-width: 300px;
+    }
     .bottle-txt {
-        --bs-gutter-x: 0.9rem;
+        --bs-gutter-x: 1.5rem;
     }
     .chato, .gr-vin{
         font-size: .8rem;
