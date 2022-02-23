@@ -78,12 +78,20 @@
     font-family: "Segoe UI Symbol";
     font-weight: 700;
     display: inline-block;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 40, 40, 1)), to(rgba(30, 40, 40, 1)));
+	background: -o-linear-gradient(top, rgba(30, 40, 40, 1), rgba(30, 40, 40, 1));
+	background: linear-gradient(to bottom, rgba(30, 40, 40, 1), rgba(30, 40, 40, 1));
     /* background-color, border-color for tv browser */
     /*background-color: #1e2828;
     border-color: #1e2828;
     -webkit-box-shadow: none!important;
             box-shadow: none!important;
     outline: none!important;*/
+}
+.toggleHolder span.btn-click:active{
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 40, 40, 1)), to(rgba(30, 40, 40, 1)));
+	background: -o-linear-gradient(top, rgba(30, 40, 40, 1), rgba(30, 40, 40, 1));
+	background: linear-gradient(to bottom, rgba(30, 40, 40, 1), rgba(30, 40, 40, 1));
 }
 .toggleHolder span.btn-click-open {
     color: #fff;
