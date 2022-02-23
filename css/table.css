@@ -63,11 +63,10 @@
     width: 100%;
     display: block;
     text-align: center;
-    border: none!important;
+  
 }
 .toggleHolder{
 	margin-top: -1%;
-	border: none!important;
 }
 .toggleHolder span.btn-click {
     width: 100%;
@@ -84,17 +83,14 @@
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 40, 40, 1)), to(rgba(30, 40, 40, 1)));
 	background: -o-linear-gradient(top, rgba(30, 40, 40, 1), rgba(30, 40, 40, 1));
 	background: linear-gradient(to bottom, rgba(30, 40, 40, 1), rgba(30, 40, 40, 1));
-	border: none!important;
-    /*-webkit-box-shadow: none!important;
-            box-shadow: none!important;*/
-    /*outline: none!important;*/
+	outline: solid #1e2828!important;
 }
 .toggleHolder span.btn-click:active{
 	/* for for smart tv browser */
 	background: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 40, 40, 1)), to(rgba(30, 40, 40, 1)));
 	background: -o-linear-gradient(top, rgba(30, 40, 40, 1), rgba(30, 40, 40, 1));
 	background: linear-gradient(to bottom, rgba(30, 40, 40, 1), rgba(30, 40, 40, 1));
-	border: none!important;
+	outline: solid #1e2828!important;
 }
 .toggleHolder span.btn-click-open {
     color: #fff;
