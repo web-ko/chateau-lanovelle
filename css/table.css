@@ -82,7 +82,7 @@
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 40, 40, 1)), to(rgba(30, 40, 40, 1)));
 	background: -o-linear-gradient(top, rgba(30, 40, 40, 1), rgba(30, 40, 40, 1));
 	background: linear-gradient(to bottom, rgba(30, 40, 40, 1), rgba(30, 40, 40, 1));
-    border-color: #1e2828!important;
+    border: solid #1e2828!important;
     /*-webkit-box-shadow: none!important;
             box-shadow: none!important;*/
     /*outline: none!important;*/
@@ -92,7 +92,7 @@
 	background: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 40, 40, 1)), to(rgba(30, 40, 40, 1)));
 	background: -o-linear-gradient(top, rgba(30, 40, 40, 1), rgba(30, 40, 40, 1));
 	background: linear-gradient(to bottom, rgba(30, 40, 40, 1), rgba(30, 40, 40, 1));
-	border-color: #1e2828!important;
+	border: solid #1e2828!important;
 }
 .toggleHolder span.btn-click-open {
     color: #fff;
