@@ -67,8 +67,7 @@
 .toggleHolder{
 	margin-top: -1%;
 }
-
-.toggleHolder div.btn-click {
+.toggleHolder span.btn-click {
     width: 100%;
     color: #d4b261;
     text-transform: uppercase;
@@ -80,16 +79,16 @@
     font-weight: 700;
     display: inline-block;
     /* background-color, border-color for tv browser */
-    background-color: #1e2828;
+    /*background-color: #1e2828;
     border-color: #1e2828;
-    box-shadow: none!important;
-    outline: none!important;
+    -webkit-box-shadow: none!important;
+            box-shadow: none!important;
+    outline: none!important;*/
 }
-.toggleHolder div.btn-click-open {
+.toggleHolder span.btn-click-open {
     color: #fff;
     display: none;
 }
-
 .img-top{
 	margin-top: 1%;
 }
