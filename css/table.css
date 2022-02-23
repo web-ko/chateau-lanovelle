@@ -79,8 +79,8 @@
     font-weight: 700;
     display: inline-block;
     /* background-color, border-color for tv browser */
-    background-color: #1e2828!important;
-    border-color: #1e2828!important;
+    background-color: #1e2828;
+    border-color: #1e2828;
 }
 .toggleHolder span.btn-click-open {
     color: #fff;
