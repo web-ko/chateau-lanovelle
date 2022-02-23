@@ -81,6 +81,8 @@
     /* background-color, border-color for tv browser */
     background-color: #1e2828;
     border-color: #1e2828;
+    box-shadow: none!important;
+    outline: none!important;
 }
 .toggleHolder span.btn-click-open {
     color: #fff;
