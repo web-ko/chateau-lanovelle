@@ -1,0 +1,47 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+.inputBack-em-1{
+    border: none;
+    background-color: #3a3937;
+    margin-left: 0; 
+    color: #bebebe;
+    padding: 0.2rem 0;
+    border-radius: 0;
+}
+.inputBack-ph-1 {
+    border: none;
+    background-color: #3a3937;
+    margin-left: 0;
+    color: #bebebe;
+    padding: 0.2rem 0;
+    border-radius: 0;
+}
+.inputBack-sb-1 {
+    border: none;
+    background-color: #3a3937;
+    color: #bebebe;
+    border-radius: 0;
+    background-image: url("../img/down-list-arrow.png");
+    background-size: auto;
+}
+.inputBack-em-1:focus, .inputBack-ph-1:focus, .inputBack-sb-1:focus, .inputBack-576:focus, .inputBack-sb-576:focus, .fifth-line textarea:focus {
+    background-color: #3a3937;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #bebebe;
+}
+.inputBack-sb-1 option{
+    background-color: #fff;
+}
+.for-merg, .for-merg-sel {
+    margin-left: 0;
+}
+td input{
+    padding: 0.2rem 0.75rem!important;
+}
