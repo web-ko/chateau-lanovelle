@@ -12,6 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/legends.css">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
 </head>
 <body class="visiterContact">
 	<header id="navigation" class="container-fluid fixed-top">
@@ -139,39 +140,50 @@
 										</div>
 									</div>
 								</div>
-								<div class="d-flex align-items-baseline mt-3 second-line for-max">
-									<label for="email" class="form-label">Email*</label>
-									<div class="forValidate">
-										<input type="email" id="email" class="form-control inputBack-em" required>
-										<div class="invalid-feedback for-merg">
-											Valid email is required.
-										</div>
-									</div>
-								</div>
-								<div class="d-flex align-items-baseline mt-3 third-line for-max">
-									<label for="phoneNumber" class="form-label">Phone</label>
-									<div class="forValidate">
-										<input type="text" id="phoneNumber" class="form-control inputBack-ph" name="phone" onkeypress="isInputNumber(event)">
-									</div>
-								</div>
-								<div class="d-flex align-items-baseline mt-3 fourth-line for-max">
-									<label for="contact-civility" class="form-label">Subject*</label>
-									<div class="forValidate">
-										<select id="contact-civility" class="form-control inputBack-sb form-select contact-civil-sel-1" required>
-											<option value="">---
-											</option>
-											<option value="Table de Lanovelle" class="contact-civil">Table de Lanovelle
-											</option>
-											<option value="Tour and tasting" class="contact-civil">Tour and tasting
-											</option>
-											<option value="Other" class="contact-civil">Other
-											</option>
-										</select>
-										<div class="invalid-feedback for-merg-sel">
-											Valid subject is required.
-										</div>
-									</div>
-								</div>
+								<table class="table table-borderless mt-3 second-line for-max">
+									<tbody>
+										<tr>
+											<td>
+												<label for="email" class="form-label">Email*</label>
+											</td>
+											<td>
+												<input type="email" id="email" class="form-control inputBack-em-1" required>
+												<div class="invalid-feedback for-merg">
+													Valid email is required.
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<label for="phoneNumber" class="form-label">Phone
+												</label>
+											</td>
+											<td>
+												<input type="text" id="phoneNumber" class="form-control inputBack-ph-1" name="phone" onkeypress="isInputNumber(event)">
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<label for="contact-civility" class="form-label">Subject*</label>
+											</td>
+											<td>
+												<select id="contact-civility" class="form-control inputBack-sb-1 form-select contact-civil-sel-1" required>
+													<option value="">---
+													</option>
+													<option value="Table de Lanovelle" class="contact-civil">Table de Lanovelle
+													</option>
+													<option value="Tour and tasting" class="contact-civil">Tour and tasting
+													</option>
+													<option value="Other" class="contact-civil">Other
+													</option>
+												</select>
+												<div class="invalid-feedback for-merg-sel">
+												Valid subject is required.
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
 								<div class="mt-3 second-line for-576">
 									<label for="email" class="form-label">Email*</label>
 									<input type="email" id="email" class="form-control inputBack-576" required>
