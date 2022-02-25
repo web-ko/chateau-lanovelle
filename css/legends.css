@@ -752,16 +752,9 @@ iframe{
 	display: block;
 }
 iframe.iframefull{
-    /* height: 100vh instead of 100% for smart tv*/
-    position: absolute;
-    height: 100vh;
     width: 100%;
-    padding: 0px;
-    border-width: 0px;
-    margin: 0px;
-    left: 0px;
-    top: 0px;
-    touch-action: pan-x pan-y;
+    /* height: 100vh instead of 100% for smart tv*/
+	height: 100vh;
 	-webkit-filter: grayscale(0);
 	        filter: grayscale(0);
 }
