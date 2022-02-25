@@ -37,26 +37,17 @@
 
 
 
-// function initMap() {
-//   map = new google.maps.Map(document.getElementById("map"), {
-//     center: { lat: -0.768395, lng: 45.213577 },
-//     zoom: 4,
-//     center: loacation
-//   });
-// };
+    $(".fullscreenButton").click(function(){
+        $("iframe").toggleClass("iframefull");
+        $(".fullscreenButton").hide();
+        $(".fullscreenButtonCl").show();
+    });
 
-
-    // $(".fullscreenButton").click(function(){
-    //     $("iframe").toggleClass("iframefull");
-    //     $(".fullscreenButton").hide();
-    //     $(".fullscreenButtonCl").show();
-    // });
-
-    // $(".fullscreenButtonCl").click(function(){
-    //     $("iframe").toggleClass("iframefull");
-    //     $(".fullscreenButtonCl").hide();
-    //     $(".fullscreenButton").show();
-    // });
+    $(".fullscreenButtonCl").click(function(){
+        $("iframe").toggleClass("iframefull");
+        $(".fullscreenButtonCl").hide();
+        $(".fullscreenButton").show();
+    });
 
 
   $(".home").click(function(){
