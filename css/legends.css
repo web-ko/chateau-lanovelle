@@ -752,7 +752,7 @@ iframe{
 	display: block;
 }
 iframe.iframefull{
-    width: 100%;
+    width: 100vw;
     /* height: 100vh instead of 100% for smart tv*/
 	height: 100vh;
 	-webkit-filter: grayscale(0);
