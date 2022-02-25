@@ -37,16 +37,16 @@
     }
 
 
-    /* Is currently in full screen or not */
-function IsFullScreenCurrently() {
-    var full_screen_element = document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement || null;
+//     /* Is currently in full screen or not */
+// function IsFullScreenCurrently() {
+//     var full_screen_element = document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement || null;
     
-    // If no element is in full-screen
-    if(full_screen_element === null)
-        return false;
-    else
-        return true;
-}
+//     // If no element is in full-screen
+//     if(full_screen_element === null)
+//         return false;
+//     else
+//         return true;
+// }
 
 
 
