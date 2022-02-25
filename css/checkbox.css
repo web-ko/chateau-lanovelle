@@ -103,6 +103,7 @@
 }
 .producstOnCart img{
     width: 10%;
+    height: 100%;
 }
 .producstOnCart .top{
     display: -webkit-box;
