@@ -63,11 +63,10 @@
     width: 100%;
     display: block;
     text-align: center;
-    border: solid red!important;
-  
 }
 .toggleHolder{
 	margin-top: -1%;
+	border: solid red!important;
 }
 .toggleHolder span.btn-click {
     width: 100%;
