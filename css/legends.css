@@ -752,7 +752,7 @@ iframe{
 	display: block;
 }
 iframe.iframefull{
-    width: 100vw;
+    width: 100%;
 	height: 100vh;
 	-webkit-filter: grayscale(0);
 	        filter: grayscale(0);
