@@ -752,6 +752,8 @@ iframe{
 	display: block;
 }
 iframe.iframefull{
+	position: absolute;
+	left: 0;
     width: 100vw;
     /* height: 100vh instead of 100% for smart tv*/
 	height: 100vh;
