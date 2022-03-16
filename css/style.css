@@ -469,7 +469,7 @@ ul{
     margin-top: 6px;
 }
 .open .story{
-    margin-top: 120px;
+    margin-top: 82px;
     opacity: 0;
     -webkit-animation: fadeinRight .5s ease forwards;
             animation: fadeinRight .5s ease forwards;
