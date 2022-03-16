@@ -296,6 +296,9 @@ ul{
         -ms-flex-pack: center;
             justify-content: center;
 }
+.page-logo.hide-2, .wine-logo.hide-3, .history-logo.hide-4, .wine-logo-1.hide-5{
+    visibility: hidden;
+}
 .page-logo{
     margin-top: 100px;
 }
