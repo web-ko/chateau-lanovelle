@@ -129,11 +129,11 @@ ul{
 .footDiv a{
     text-decoration: none;
 }
-@media(min-width: 1200px){
+/*@media(min-width: 1200px){
     .landing-page-logo{
         width: 30.333333%;
     }
-}
+}*/
 @media(max-width: 632px){
     .baseline h1{
         padding: 0 1.25rem;
