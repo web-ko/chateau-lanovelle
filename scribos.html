@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>SCRIBOS - Château Lanovelle</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/scribos.css">
+</head>
+<body>
+	<!-- burger -->
+	<div class="burger-content hide">
+		<nav class="top">
+			<div id="closeButton" class="close-button top-ripple">
+				<svg class="right-arrow" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path></svg>
+			</div>
+		</nav>
+		<nav class="d-flex ripple-authen btn">
+	        <div class="sign">
+	        	<svg class="sign-svg" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"></path></svg>
+	        </div>
+	        <div class="btn sign-span hidden">Authentication</div>
+        </nav>
+		<nav class="dropdown" id="closeButton">
+			<!-- Multiple languages using Jquery: class="" key="" -->
+			<div class="dropdown-toggle lang lang1 dropdownRipple" data-bs-toggle="dropdown" aria-expanded="false" key="Language">Language</div>
+			<ul id="closeButton1" class="dropdown-menu dropdown-lang">
+				<li id="en" class="translate"><a href="#;" >English</a></li>
+				<li id="geo" class="translate"><a href="#;">Georgia</a></li>
+				<li><a href="#;">Ukraine</a></li>
+				<li><a href="#;">Français</a></li>
+			</ul>
+		</nav>
+    </div>
+    <div class="overlay"></div>
+    <!-- end of burger -->
+	<header id="navigation">
+		<nav class="navbar navbar-light">
+			<div class="container">
+				<div class="navbar-brand">
+					<img class="scribus-logo" src="img/chateau lanovelle logo.svg">
+		    	</div>
+		    	<div class="burger">
+		    		<div class="burger-ripple">
+						<svg class="burger-button" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							viewBox="0 0 18 12" style="enable-background:new 0 0 18 12;" xml:space="preserve">
+							<style type="text/css">
+							</style>
+							<g>
+								<rect class="st0" width="18" height="2"/>
+								<rect y="5" class="st0" width="18" height="2"/>
+								<rect y="10" class="st0" width="18" height="2"/>
+							</g>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<section>
+		<div class="container min-960">
+			<div class="row">
+				<div class="col-4 position-relative">
+					<div class="rect-1"><h5 class="lang1" key="1 Scan or Enter Id">1 Scan or Enter Id</h5></div>
+				</div>
+				<div class="col-4 position-relative">
+					<div class="rect-2"><h5 class="lang1" key="2 Confirm">2 Confirm</h5></div>
+				</div>
+				<div class="col-4 position-relative mb-3">
+					<div class="rect-2"><h5 class="lang1" key="3 Be Sure">3 Be Sure</h5></div>
+				</div>
+			</div>
+		</div>
+		<div class="container max-960">
+			<div class="row">
+				<div class="col-4 position-relative">
+					<div class="rect-1"><h5>1</h5></div>
+				</div>
+				<div class="col-4 position-relative">
+					<div class="rect-2"><h5>2</h5></div>
+				</div>
+				<div class="col-4 position-relative mb-3">
+					<div class="rect-2"><h5>3</h5></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container position-relative">
+			<div class="row">
+				<div class="col-12">
+					<div class="mt-5 text-center prod-div">
+						<h6 class="prod-auth lang1" key="Product Authentication">Product Authentication</h6>
+						<h1 class="entr-id lang1" key="PLEASE ENTER ID">PLEASE ENTER ID</h1>
+						<div class="div-label">
+							<img src="img/label.png">
+						</div>
+						<div title="Help" data-bs-toggle="modal" data-bs-target="#helpPage">
+							<svg class="help-sign" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"></path></svg>
+						</div>
+						<div class="line-sign"></div>
+					</div>
+					<form class="needs-validation" novalidate>
+						<div class="d-flex justify-content-center">
+							<div class="md-form form-floating mt-4">
+								<input type="text" class="form-control validate forId" id="floatingInput" placeholder="name@example.com" required>
+								<label class="labelId lang1" key="ENTER ID" for="floatingInput">ENTER ID</label>
+								<div class="invalid-feedback for-merg">
+									Invalid label ID format
+								</div>
+							</div>
+						</div>
+						<div class="d-flex justify-content-center mt-4">
+							<button type="submit" class="btn btn-round btn-ripple lang1" key="CHECK">CHECK</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="modal fade" id="helpPage">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="text-center mt-4">
+					<h5 class="modal-title w-100 lang1" key="Step 1:">Step 1:</h5>
+					<p class="modal-title-p lang1" key="Enter ID from your Security Label">Enter ID from your Security Label</p>
+				</div>
+				<div class="d-flex justify-content-center mb-2">
+					<img src="img/enter_id.png">
+				</div>
+				<div class="d-flex justify-content-center">
+					<hr>
+				</div>
+				<div class="text-center">
+					<h5 class="modal-title w-100 lang1" key="Step 2:">Step 2:</h5>
+					<p class="modal-title-p lang1" key="Press the Check Button">Press the Check Button</p>
+				</div>
+				<div class="d-flex justify-content-center mb-2">
+					<img src="img/check_button.png">
+				</div>
+				<div class="d-flex justify-content-end mb-2">
+					<button class="btn btn-ok btn-ok-ripple lang1" key="OK" data-bs-dismiss="modal" aria-label="Close">OK</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="page-footer">
+		<div class="container footer-line">
+			<div class="row">
+				<div class="col-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-1 footer-first">
+					<h6 class="lang1 chat-lan" key="© 2020 Château Lanovelle">© 2020 Château Lanovelle</h6>
+				</div>
+				<div class="col-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex mt-1 footer-second">
+					<a href="#;"><h6 class="lang1 legal-note" key="Legal Notice">Legal Notice</h6></a>
+					<span>|</span>
+					<a href="#;"><h6 class="lang1 priv-pol" key="Privacy Policy">Privacy Policy</h6></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<!-- <script type="text/javascript" src="js/bootstrap.min.js"></script> -->
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="js/validate.js"></script>
+	<script type="text/javascript" src="js/legends.js"></script>
+	<script type="text/javascript" src="js/scribos.js"></script>
+	<script type="text/javascript" src="js/rotate.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+
+</body>
+</html>
