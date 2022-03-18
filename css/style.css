@@ -497,7 +497,7 @@ ul{
     -webkit-animation-delay: .5s;
             animation-delay: .5s;
 }
-.open .winesto, .open .storyof, .open .legends, .open .tableof, .open .glimpseof, .open .vineyardof, .visitof, .contactof{
+.open .winesto, .open .storyof, .open .legends, .open .tableof, .open .glimpseof, .open .vineyardof, .visitof, .contactof, .authenticateof{
     text-decoration: underline;
     text-underline-offset: 2px;
 }
@@ -521,6 +521,13 @@ ul{
             animation: fadeinRight .5s ease forwards;
     -webkit-animation-delay: .45s;
             animation-delay: .45s;
+}
+.open .authenticate{
+    opacity: 0;
+    -webkit-animation: fadeinRight .5s ease forwards;
+            animation: fadeinRight .5s ease forwards;
+    -webkit-animation-delay: .5s;
+            animation-delay: .5s;
 }
 .open .contacts{
     opacity: 0;

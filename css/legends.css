@@ -694,6 +694,23 @@ ul{
             box-shadow: inset 26px -79px 68px 18px rgb(165 165 165 / 42%);
     background: #f3f3f3;
 }
+/* authenticate */
+.wine-authentication{
+    background: #eceae9;
+}
+.intro-contact1{
+    font-family: "BodoniStd";
+    font-size: 1.25rem;
+    color: #755509;
+}
+#authenticate_iframe {
+    min-height: 440px;
+    width: 100%;
+    background: #eceae9;
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+}
+/* end of authenticate */
 .intro-contact{
 	font-family: "Segoe UI Symbol";
 	font-size: 1.125rem;
