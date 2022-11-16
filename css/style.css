@@ -814,25 +814,6 @@ ul{
     color: #757067;
 }
 
-/*anim on scroll*/
-.reveal{
-    -webkit-transform: translateY(200px);
-        -ms-transform: translateY(200px);
-            transform: translateY(200px);
-    opacity: 0;
-    -webkit-transition: all ease 1s;
-    -o-transition: all ease 1s;
-    transition: all ease 1s;
-}
-.reveal.active{
-    -webkit-transform: translateY(0);
-        -ms-transform: translateY(0);
-            transform: translateY(0);
-    opacity: 1;
-}
-/*end of anim on scroll*/
-
-
 .wine-logo{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1179,6 +1160,23 @@ ul{
     }
 }
 @media(min-width: 768px){
+    /*anim on scroll*/
+    .reveal{
+        -webkit-transform: translateY(200px);
+            -ms-transform: translateY(200px);
+                transform: translateY(200px);
+        opacity: 0;
+        -webkit-transition: all ease 1s;
+        -o-transition: all ease 1s;
+        transition: all ease 1s;
+    }
+    .reveal.active{
+        -webkit-transform: translateY(0);
+            -ms-transform: translateY(0);
+                transform: translateY(0);
+        opacity: 1;
+    }
+    /*end of anim on scroll*/
     .texthidefrom767{
         display: none;
     }
